@@ -19,6 +19,9 @@
 		vertical-align: baseline;
 	}
 
+	.right{
+		text-align:right;
+	}
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -2198,6 +2201,8 @@
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		margin-left: 5px;
+		margin-bottom: 2px;
 	}
 
 		.icon:before {
@@ -2461,7 +2466,6 @@
 	}
 
 		table tbody tr {
-			border: solid 1px #dbdbdb;
 			border-left: 0;
 			border-right: 0;
 		}
