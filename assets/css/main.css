@@ -3226,3 +3226,27 @@
 	    width: 140px;
 	}
 }
+
+.med-prototype{
+	visibility:visible;
+}
+
+.med-prototype-mobile{
+	visibility:collapse;
+}
+
+@media screen and (max-width: 466px) {
+	.med-prototype{
+		visibility:collapse;
+	}
+	.med-prototype-mobile{
+		visibility:visible;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	.auto-center{
+		margin-left: auto;
+		margin-right:auto;
+	}
+}
