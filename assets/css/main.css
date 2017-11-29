@@ -3250,3 +3250,17 @@
 		margin-right:auto;
 	}
 }
+
+#logo{
+	width:150px;
+}
+
+@media screen and (max-width: 985px) {
+	#logo{
+		width: 125px;
+	}
+}
+
+#logo-nav-bar{
+	width:96px;
+}
